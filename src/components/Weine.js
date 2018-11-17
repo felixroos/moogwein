@@ -23,7 +23,7 @@ export const Weine = (props) => (
                 <p>Ein letzter einsamer Weinberg in diesem Teil, dessen Trauben, aber auch die jungen Triebe vor ungebetenen Gästen (Vögel, Rehe, Wildschweine) geschützt werden müssen.</p>
             </div>
             <div data-col="auto" className="column">
-                <div className="img-crop-16-9">
+                <div className="img-crop-golden">
                     <img alt="" className="img_full" src="http://www.weingut-moog.de/resources/_wsb_500x281_Netze+Traben.jpg" />
                 </div>
                 <p>Weinberg unterm Vogelschutz</p>
