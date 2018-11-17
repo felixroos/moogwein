@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.scss';
-import { Lagen } from './components/Lagen';
 import { Weine } from './components/Weine';
 import { Bilder } from './components/Bilder';
 import { About } from './components/About';
@@ -14,10 +13,6 @@ class App extends Component {
     this.state = {
       showMenu: false,
       menuItems: [
-        {
-          label: 'Lagen',
-          href: '#lagen'
-        },
         {
           label: 'Weine & Brände',
           href: '#weine'
@@ -42,10 +37,12 @@ class App extends Component {
         <Toolbar items={this.state.menuItems} />
         <div className="content" data-container>
           <Header />
-          <Lagen />
           <Weine />
           <Bilder />
           <About />
+          <footer className="footer">
+            &copy; moogwein 2018
+        </footer>
         </div>
       </div>
     );
