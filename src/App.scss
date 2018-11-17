@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Asap');
+body {
+    background-color: #7D7768;
+    font-family: 'Asap', sans-serif;
+}
+
+$containerWidth:900px;
+.content {
+    max-width: $containerWidth;
+    padding: 55px 0;
+}
+
+.column {
+    width: 50%;
+    min-width: 275px;
+}
+
+.page-header {
+    background: url(img/header.png) bottom left no-repeat;
+    height: 219px;
+    padding: 20px 20px;
+}
+
+.logo {
+    padding: 10px 0px 0px 10px;
+    img {
+        width: 94px;
+    }
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: initial;
+    background-color: rgba(45, 97, 85, 0.8);
+    h2,
+    .nav__item>a {
+        color: white;
+    }
+    .menu-container {
+        padding: 0 10px;
+        justify-content: space-between;
+        display: flex;
+        max-width: $containerWidth;
+        width: 100%;
+    }
+}
+
+.toolbar {
+    width: 100%;
+    background-color: rgba(45, 97, 85, 0.8);
+    h2,
+    .nav__item>a {
+        color: white;
+    }
+}
+
+.content {
+    background-color: white;
+}
