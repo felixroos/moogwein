@@ -13,9 +13,11 @@ export const Toolbar = ({ items }) => {
     </nav>);
 
     const smallMenu = (<nav tabIndex="0" className="nav dropdown dropdown_right is-hidden-from-md">
-        <li className="nav__item">
-            <a className="hamburger-btn"></a>
-        </li>
+        <ul className="nav__items">
+            <li className="nav__item">
+                <a className="btn btn_clear btn_invert">Menu</a>
+            </li>
+        </ul>
         <ul className="dropdown-options">
             {items.map((item, index) => (
                 <li className="dropdown-option" key={index}>
@@ -30,8 +32,8 @@ export const Toolbar = ({ items }) => {
             <div className="menu_title logo">
                 <img src={logo} alt="moog" />
             </div>
-        {largeMenu}
-        {smallMenu}
+            {largeMenu}
+            {smallMenu}
         </div>
     </div>);
 }

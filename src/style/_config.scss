@@ -232,7 +232,7 @@ $breakpoints: map-merge(
 // @param {value} $headings-font
 // @param {value} $monospace-font
 $body-font: 'Asap', sans-serif !default;
-$headings-font: sans-serif !default;
+$headings-font: 'Asap', sans-serif !default;
 $monospace-font: monospace !default;
 
 //

@@ -1,41 +1,14 @@
 import React from 'react';
 
+
 export const Weine = (props) => (
-    <section className="has-padding" id="weine">
-        <h3>Unsere Lagen</h3>
-        <div data-grid>
-            <div data-col="auto" className="column">
-                <div className="img-crop-golden">
-                    <img alt="" className="img_full" src="http://www.weingut-moog.de/resources/_wsb_500x501_Unterburg.jpg" />
-                </div>
-                <p>Blick aus dem Weinberg auf die Mosel und den Nachbarort Enkirch</p>
-            </div>
-            <div data-col="auto" className="column">
-                <div className="img-crop-golden">
-                    <img alt="" className="img_full" src="http://www.weingut-moog.de/resources/_wsb_500x375_Kr$C3$A4uterhaus+gr$C3$BCn.JPG" />
-                </div>
-                <p>Nicht nur der Winzer erwartet die Reifung der Trauben, die Vögel aus Nachbars Garten, die Rehe, ja sogar Wildschweine mussten schon vertrieben werden.</p>
-            </div>
-            <div data-col="auto" className="column">
-                <div className="img-crop-golden">
-                    <img alt="" className="img_full" src="http://www.weingut-moog.de/resources/_wsb_500x281_Laach+Netze.JPG" />
-                </div>
-                <p>Ein letzter einsamer Weinberg in diesem Teil, dessen Trauben, aber auch die jungen Triebe vor ungebetenen Gästen (Vögel, Rehe, Wildschweine) geschützt werden müssen.</p>
-            </div>
-            <div data-col="auto" className="column">
-                <div className="img-crop-golden">
-                    <img alt="" className="img_full" src="http://www.weingut-moog.de/resources/_wsb_500x281_Netze+Traben.jpg" />
-                </div>
-                <p>Weinberg unterm Vogelschutz</p>
-            </div>
-        </div>
-        <h3>Weine &amp; Brände</h3>
+    <div>
         <table className="table">
-            {/* <thead>
+            <thead>
                 <tr>
-                    <th colspan="2">Weine</th>
+                    <th colSpan="3">Weine</th>
                 </tr>
-            </thead> */}
+            </thead>
             <tbody>
                 <tr>
                     <td>Trarbacher Schlossberg</td>
@@ -58,19 +31,57 @@ export const Weine = (props) => (
                     <td className="align-right">9,20€</td>
                 </tr>
             </tbody>
-            {/* <thead>
+            <thead>
                 <tr>
-                    <th colspan="2">Brände</th>
+                    <th colSpan="3">Brände</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>..</td>
-                    <td>...</td>
+                    <td>Rieslingtresterbrand</td>
+                    <td>2 Jahre im Eichenholzfass gereift</td>
+                    <td className="align-right">9,00€</td>
                 </tr>
-            </tbody> */}
+                <tr>
+                    <td>Rieslingtresterbrand</td>
+                    <td>5 Jahre im Eichenholzfass gereift</td>
+                    <td className="align-right">13,50€</td>
+                </tr>
+                <tr>
+                    <td>Apfelbrand</td>
+                    <td>im Eichenholzfass gereift</td>
+                    <td className="align-right">12,50€</td>
+                </tr>
+                <tr>
+                    <td>Zwetschge</td>
+                    <td></td>
+                    <td className="align-right">12,50€</td>
+                </tr>
+                <tr>
+                    <td>Mirabelle</td>
+                    <td></td>
+                    <td className="align-right">12,50€</td>
+                </tr>
+                <tr>
+                    <td>Weinbergspfirisch</td>
+                    <td>etwas Besonderes - gibt es nicht in jedem Jahr</td>
+                    <td className="align-right">14,00€</td>
+                </tr>
+                <tr>
+                    <td>Alter Zwetschgenbrand</td>
+                    <td>im Eichenholzfass gereift</td>
+                    <td className="align-right">14,50€</td>
+                </tr>
+                <tr>
+                    <td>Riesling- Weinbrand</td>
+                    <td>1991er Trarbacher Taubenhaus, im Eichenholzfass gereift</td>
+                    <td className="align-right">15,50€</td>
+                </tr>
+            </tbody>
         </table>
-        <p>Suchen Sie einen bestimmten Jahrgang? Fragen Sie nach. Leergut nehmen wir gerne wieder zurück.</p>
-        <p>Kontakt: Weingut Moog - Im Faller 21 - 56841 Traben-Trarbach - Tel: 06541-701423</p>
-    </section>
+        <div className="well align-center">
+            Bestellungen per Email: <a href="mailto:moogis@arcor.de">moogis@arcor.de</a> oder per Telefon: 06541-701423
+        </div>
+        {/* <p>Suchen Sie einen bestimmten Jahrgang? Fragen Sie nach. Leergut nehmen wir gerne wieder zurück.</p> */}
+    </div >
 );
