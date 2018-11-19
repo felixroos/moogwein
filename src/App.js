@@ -6,8 +6,9 @@ import { About } from './components/About';
 import { Toolbar } from './components/Toolbar';
 import { Header } from './components/Header';
 import bucket from './img/photos/DSC_0863.jpg';
+import lese2018 from './img/photos/lesehelfer2018.jpg';
 import netz from './img/photos/netz.jpg';
-import trauben from './img/photos/P1290172.JPG';
+import trauben from './img/photos/riesling.jpg';
 import grazien from './img/photos/grazien.jpg';
 import keller from './img/photos/keller.png';
 import faesser from './img/photos/faesser.jpg';
@@ -56,6 +57,10 @@ class App extends Component {
         {
           src: trauben,
           caption: ''
+        },
+        {
+          src: lese2018,
+          caption: 'Danke an alle Helfer!'
         },
       ],
       weine: [
@@ -108,7 +113,7 @@ class App extends Component {
             <h3>Einblicke in die Weinernte</h3>
             <Gallery images={this.state.einblicke} />
             <div className="well align-center">
-              Noch mehr Bilder gibt es auf Instagram!
+              Noch mehr Bilder gibt es auf <a href="https://www.instagram.com/moogwein/" target="_blank">Instagram</a>
             </div>
           </section>
           <div className="anchor" id="contact"></div>
