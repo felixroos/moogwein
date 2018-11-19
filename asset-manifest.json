@@ -1,7 +1,7 @@
 {
   "main.css": "/moogwein/static/css/main.643e8c03.chunk.css",
-  "main.js": "/moogwein/static/js/main.336f00ff.chunk.js",
-  "main.js.map": "/moogwein/static/js/main.336f00ff.chunk.js.map",
+  "main.js": "/moogwein/static/js/main.dd0ecec6.chunk.js",
+  "main.js.map": "/moogwein/static/js/main.dd0ecec6.chunk.js.map",
   "static/js/1.9ad1fc6e.chunk.js": "/moogwein/static/js/1.9ad1fc6e.chunk.js",
   "static/js/1.9ad1fc6e.chunk.js.map": "/moogwein/static/js/1.9ad1fc6e.chunk.js.map",
   "runtime~main.js": "/moogwein/static/js/runtime~main.5d56e6ab.js",
@@ -20,6 +20,6 @@
   "static/media/netz.jpg": "/moogwein/static/media/netz.da78a0f9.jpg",
   "static/css/main.643e8c03.chunk.css.map": "/moogwein/static/css/main.643e8c03.chunk.css.map",
   "index.html": "/moogwein/index.html",
-  "precache-manifest.4fd59b1fb463f4088cd3ac254f62b151.js": "/moogwein/precache-manifest.4fd59b1fb463f4088cd3ac254f62b151.js",
+  "precache-manifest.34b9f288cf35a7f5587881a29ea4caed.js": "/moogwein/precache-manifest.34b9f288cf35a7f5587881a29ea4caed.js",
   "service-worker.js": "/moogwein/service-worker.js"
 }

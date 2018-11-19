@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/moogwein/precache-manifest.4fd59b1fb463f4088cd3ac254f62b151.js"
+  "/moogwein/precache-manifest.34b9f288cf35a7f5587881a29ea4caed.js"
 );
 
 workbox.clientsClaim();
