@@ -4,20 +4,16 @@ self.__precacheManifest = [
     "url": "/moogwein/static/media/keller.51e9bf3b.png"
   },
   {
-    "revision": "4b7b5547478b0ec08125",
-    "url": "/moogwein/static/css/main.2f50abce.chunk.css"
+    "revision": "336f00ff23492f8795b4",
+    "url": "/moogwein/static/css/main.643e8c03.chunk.css"
   },
   {
-    "revision": "2c212274eadc0b27f47f",
-    "url": "/moogwein/static/js/1.2c212274.chunk.js"
+    "revision": "9ad1fc6e5409379ee531",
+    "url": "/moogwein/static/js/1.9ad1fc6e.chunk.js"
   },
   {
     "revision": "5d56e6aba4e6529aa994",
     "url": "/moogwein/static/js/runtime~main.5d56e6ab.js"
-  },
-  {
-    "revision": "d3f9b35de67f410bf4daf62afe138a4e",
-    "url": "/moogwein/static/media/DSC_0863.d3f9b35d.jpg"
   },
   {
     "revision": "b71f938f74d34fdfb44e88bfd4e4c577",
@@ -36,8 +32,8 @@ self.__precacheManifest = [
     "url": "/moogwein/static/media/grazien.73601d02.jpg"
   },
   {
-    "revision": "4b7b5547478b0ec08125",
-    "url": "/moogwein/static/js/main.4b7b5547.chunk.js"
+    "revision": "336f00ff23492f8795b4",
+    "url": "/moogwein/static/js/main.336f00ff.chunk.js"
   },
   {
     "revision": "0706cac874d780482d8d03c391c1127b",
@@ -68,7 +64,7 @@ self.__precacheManifest = [
     "url": "/moogwein/static/media/moogwein.528d892b.jpg"
   },
   {
-    "revision": "94fc929fd2302ef525b4c0b83a370e5e",
+    "revision": "c02226820685ac11d96974347d8f3491",
     "url": "/moogwein/index.html"
   }
 ];
