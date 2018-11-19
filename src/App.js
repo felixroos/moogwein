@@ -5,7 +5,6 @@ import { Gallery } from './components/Gallery';
 import { About } from './components/About';
 import { Toolbar } from './components/Toolbar';
 import { Header } from './components/Header';
-import bucket from './img/photos/DSC_0863.jpg';
 import lese2018 from './img/photos/lesehelfer2018.jpg';
 import netz from './img/photos/netz.jpg';
 import trauben from './img/photos/riesling.jpg';
@@ -48,19 +47,15 @@ class App extends Component {
         },
         {
           src: grazien,
-          caption: 'Die Helfer präsentieren Stolz die Ernte'
+          caption: 'Urlaub mit Weinlese an der Mosel'
         },
         {
-          src: bucket,
-          caption: ''
+          src: lese2018,
+          caption: 'Familie und Freunde kommen zur Lese'
         },
         {
           src: trauben,
           caption: ''
-        },
-        {
-          src: lese2018,
-          caption: 'Danke an alle Helfer!'
         },
       ],
       weine: [
@@ -77,15 +72,15 @@ class App extends Component {
       lagen: [
         {
           src: haus,
-          caption: 'Kräuterhaus'
+          caption: 'Trabener Kräuterhaus'
         },
         {
           src: berg,
-          caption: 'Schloßberg'
+          caption: 'Trarbacher Schloßberg'
         },
         {
           src: pfad,
-          caption: 'Gaispfad'
+          caption: 'Trabener Gaispfad'
         },
       ]
     }
