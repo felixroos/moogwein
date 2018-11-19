@@ -4,7 +4,7 @@ import logo from '../img/logo_white.png';
 export const Toolbar = ({ items }) => {
     const largeMenu = (<nav className="nav is-visible-from-md">
         <ul className="nav__items">
-            {items.map((item, index) => (
+            {items.filter(i => !i.smallOnly).map((item, index) => (
                 <li className="nav__item" key={index}>
                     <a href={item.href} className="btn btn_clear btn_invert">{item.label}</a>
                 </li>

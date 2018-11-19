@@ -7,7 +7,8 @@ import { Toolbar } from './components/Toolbar';
 import { Header } from './components/Header';
 import bucket from './img/photos/DSC_0863.jpg';
 import netz from './img/photos/netz.jpg';
-import trauben from './img/photos/DSC_1721.jpg';
+/* import trauben from './img/photos/DSC_1721.jpg'; */
+import trauben from './img/photos/P1290172.JPG';
 /* import wein from './img/photos/moogwein.jpg'; */
 /* import gaispfad from './img/photos/gaispfad.jpg';
 import kraeuterhaus from './img/photos/kraeuterhaus.jpg';
@@ -19,11 +20,12 @@ import fass from './img/photos/fass.jpg';
 /* import huette from './img/photos/huette.jpg';
 import messung from './img/photos/messung.jpg';
 import tisch from './img/photos/tisch.jpg'; */
+import messer from './img/messer.png';
 
-import lage1 from './img/photos/P1070630.JPG';
-import lage2 from './img/photos/P1070880.JPG';
+import haus from './img/photos/P1290118.jpg';
+import berg from './img/photos/P1290128.jpg';
+import pfad from './img/photos/TrabenerGaispfad.jpg';
 /* import lage3 from './img/photos/P1020229.JPG'; */
-import lage4 from './img/photos/20152015.jpg';
 
 
 class App extends Component {
@@ -35,16 +37,16 @@ class App extends Component {
       showDialog: false,
       menuItems: [
         {
+          label: 'Über uns',
+          href: '#about'
+        },
+        {
           label: 'Weine & Brände',
           href: '#weine'
         },
         {
           label: 'Bilder',
           href: '#bilder'
-        },
-        {
-          label: 'Über uns',
-          href: '#about'
         },
         {
           label: 'Kontakt',
@@ -88,15 +90,15 @@ class App extends Component {
       ],
       lagen: [
         {
-          src: lage1,
+          src: haus,
           caption: 'Kräuterhaus'
         },
         {
-          src: lage4,
-          caption: 'Schlossberg'
+          src: berg,
+          caption: 'Schloßberg'
         },
         {
-          src: lage2,
+          src: pfad,
           caption: 'Gaispfad'
         },/* 
         {
@@ -114,12 +116,19 @@ class App extends Component {
         <Toolbar items={this.state.menuItems} />
         <div className="content" data-container>
           <Header />
-          <div className="anchor" id="weine"></div>
+          <div className="anchor" id="about"></div>
           <section className="has-padding">
-            <h3>
-              Unsere Weine &amp; Brände
-              </h3>
-            <Gallery images={this.state.lagen} columns="3" />
+            <h3>Über Uns</h3>
+            <About />
+          </section>
+          <section className="has-padding">
+            {/* <h3 className="is-visible-from-md">Weine &amp; Brände</h3>
+            <h3 className="is-hidden-from-md">Unsere Lagen</h3> */}
+            <Gallery images={this.state.lagen} columns="3" crop="1-1" />
+            {/* <div className="anchor" id="weine"></div> */}
+            <div className="anchor" id="weine"></div>
+            <h3>Weine &amp; Brände</h3>
+            {/* <h3 className="is-hidden-from-md">Weine &amp; Brände</h3> */}
             <Weine />
           </section>
           <div className="anchor" id="bilder"></div>
@@ -131,10 +140,10 @@ class App extends Component {
             </div>
           </section>
           <div className="anchor" id="about"></div>
-          <section className="has-padding">
+          {/* <section className="has-padding">
             <h3>Unsere Geschichte</h3>
             <About />
-          </section>
+          </section> */}
           {/* <section className="has-padding" id="weine">
             <h3>Im Weinkeller</h3>
             <Gallery images={this.state.weine} columns="3" crop="4-3" />
@@ -153,18 +162,23 @@ class App extends Component {
                   Tel: 06541 - 70 14 23<br />
                   <a href="mailto:moogis@arcor.de">moogis@arcor.de</a>
                 </p>
-              </div>
-              <div data-col="6">
                 <p>
                   <strong>Website:</strong><br />
                   Gestaltung und Programmierung: Felix Roos<br />
-                  Fotos: Glenn Zimmer<br />
+                  Fotos: Uschi Moog, Header: Glenn Zimmer<br />
                   {/* Hosted on github<br /> */}
                   <a href="#contact" onClick={() => this.setState({ showDialog: !this.state.showDialog })}>
                     Datenschutzerklärung anzeigen
                   </a>
                 </p>
               </div>
+              <div data-col="6">
+              <img src={messer} alt="messer" className="img_responsive"></img>
+
+              </div>
+              {/* <div className="align-center" data-col="12">
+                <img src={messer} alt="messer" className="img_responsive"></img>
+              </div> */}
             </div>
             <div className={`dialog${this.state.showDialog ? ' is-active' : ''}`}>
               <div className="dialog-body">

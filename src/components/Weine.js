@@ -1,81 +1,87 @@
 import React from 'react';
 
-
 export const Weine = (props) => (
     <div>
         <table className="table">
             <thead>
                 <tr>
-                    <th colSpan="3">Weine</th>
+                    <th className="align-left" colSpan="2">Weinpreisliste 2018</th>
+                    <th className="align-right"><small>0.75l</small></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
-                    <td>Trarbacher Schlossberg</td>
-                    <td>Qualitätswein</td>
-                    <td className="align-right">5,80€</td>
+                    <td>Trabener Kräuterhaus 2016</td>
+                    <td>Riesling - Qualitätswein - trocken</td>
+                    <td className="align-right">6,80 €</td>
                 </tr>
                 <tr>
-                    <td>Trabener Kräuterhaus</td>
-                    <td>Riesling - Kabinett</td>
-                    <td className="align-right">6,20€</td>
+                    <td>Trarbacher Schloßberg 2016</td>
+                    <td>Riesling - Kabinett - feinherb</td>
+                    <td className="align-right">7,80 €</td>
                 </tr>
                 <tr>
-                    <td>Trabener Gaispfad</td>
-                    <td>Riesling  - Spätlese </td>
-                    <td className="align-right">9,20€</td>
+                    <td>Trabener Gaispfad 2016</td>
+                    <td>Riesling - Spätlese</td>
+                    <td className="align-right">12,50 €</td>
                 </tr>
                 <tr>
-                    <td>Trarbacher Gaispfad</td>
-                    <td>Riesling - Auslese</td>
-                    <td className="align-right">9,20€</td>
+                    <td>Trabener Kräuterhaus 2017</td>
+                    <td>Riesling - Kabinett - trocken</td>
+                    <td className="align-right">7,50 €</td>
+                </tr>
+                <tr>
+                    <td>Trarbacher Schloßberg 2017</td>
+                    <td>Riesling - Kabinett - feinherb</td>
+                    <td className="align-right">8,00 €</td>
+                </tr>
+                <tr>
+                    <td>Trabener Gaispfad 2017</td>
+                    <td>Riesling - Spätlese</td>
+                    <td className="align-right">12,50 €</td>
                 </tr>
             </tbody>
             <thead>
                 <tr>
-                    <th colSpan="3">Brände</th>
+                    <th className="align-left" colSpan="2">Edelbrände <small>aus eigenem Wein-und Obstbau</small></th>
+                    <th className="align-right"><small>0,5l</small></th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>Rieslingtresterbrand</td>
                     <td>2 Jahre im Eichenholzfass gereift</td>
-                    <td className="align-right">9,00€</td>
+                    <td className="align-right">9,50 €</td>
                 </tr>
                 <tr>
                     <td>Rieslingtresterbrand</td>
                     <td>5 Jahre im Eichenholzfass gereift</td>
-                    <td className="align-right">13,50€</td>
+                    <td className="align-right">14,50 €</td>
                 </tr>
                 <tr>
                     <td>Apfelbrand</td>
                     <td>im Eichenholzfass gereift</td>
-                    <td className="align-right">12,50€</td>
-                </tr>
-                <tr>
-                    <td>Zwetschge</td>
-                    <td></td>
-                    <td className="align-right">12,50€</td>
+                    <td className="align-right">13,50 €</td>
                 </tr>
                 <tr>
                     <td>Mirabelle</td>
                     <td></td>
-                    <td className="align-right">12,50€</td>
+                    <td className="align-right">14,50 €</td>
                 </tr>
                 <tr>
                     <td>Weinbergspfirisch</td>
-                    <td>etwas Besonderes - gibt es nicht in jedem Jahr</td>
-                    <td className="align-right">14,00€</td>
+                    <td></td>
+                    <td className="align-right">14,50 €</td>
                 </tr>
                 <tr>
                     <td>Alter Zwetschgenbrand</td>
                     <td>im Eichenholzfass gereift</td>
-                    <td className="align-right">14,50€</td>
+                    <td className="align-right">14,50 €</td>
                 </tr>
                 <tr>
                     <td>Riesling- Weinbrand</td>
                     <td>1991er Trarbacher Taubenhaus, im Eichenholzfass gereift</td>
-                    <td className="align-right">15,50€</td>
+                    <td className="align-right">15,00 €</td>
                 </tr>
             </tbody>
         </table>

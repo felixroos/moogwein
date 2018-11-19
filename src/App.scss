@@ -4,6 +4,10 @@ body {
     font-size: 0.95em;
 }
 
+.table {
+    font-family: 'Asap', Sans-serif !important;
+}
+
 $containerWidth:900px;
 .content {
     max-width: $containerWidth; // padding: 55px 0;
@@ -73,12 +77,13 @@ h5 {
 }
 
 .menu {
-    z-index: 9000;
+    z-index: 99;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
     max-width: initial;
+    padding: 0;
     background-color: rgba(45, 97, 85, 0.85);
     h2,
     .nav__item>a {
