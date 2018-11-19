@@ -55,7 +55,7 @@ class App extends Component {
         },
         {
           src: trauben,
-          caption: ''
+          caption: 'Rieslingtrauben in der Herbstsonne'
         },
       ],
       weine: [

@@ -13,32 +13,32 @@ export const Weine = (props) => (
                 <tr>
                     <td>Trabener Kräuterhaus 2016</td>
                     <td>Riesling - Qualitätswein - trocken</td>
-                    <td className="align-right">6,80 €</td>
+                    <td className="align-right">6,80€</td>
                 </tr>
                 <tr>
                     <td>Trarbacher Schloßberg 2016</td>
                     <td>Riesling - Kabinett - feinherb</td>
-                    <td className="align-right">7,80 €</td>
+                    <td className="align-right">7,80€</td>
                 </tr>
                 <tr>
                     <td>Trabener Gaispfad 2016</td>
                     <td>Riesling - Spätlese</td>
-                    <td className="align-right">12,50 €</td>
+                    <td className="align-right">12,50€</td>
                 </tr>
                 <tr>
                     <td>Trabener Kräuterhaus 2017</td>
                     <td>Riesling - Kabinett - trocken</td>
-                    <td className="align-right">7,50 €</td>
+                    <td className="align-right">7,50€</td>
                 </tr>
                 <tr>
                     <td>Trarbacher Schloßberg 2017</td>
                     <td>Riesling - Kabinett - feinherb</td>
-                    <td className="align-right">8,00 €</td>
+                    <td className="align-right">8,00€</td>
                 </tr>
                 <tr>
                     <td>Trabener Gaispfad 2017</td>
                     <td>Riesling - Spätlese</td>
-                    <td className="align-right">12,50 €</td>
+                    <td className="align-right">12,50€</td>
                 </tr>
             </tbody>
             <thead>
@@ -51,37 +51,37 @@ export const Weine = (props) => (
                 <tr>
                     <td>Rieslingtresterbrand</td>
                     <td>2 Jahre im Eichenholzfass gereift</td>
-                    <td className="align-right">9,50 €</td>
+                    <td className="align-right">9,50€</td>
                 </tr>
                 <tr>
                     <td>Rieslingtresterbrand</td>
                     <td>5 Jahre im Eichenholzfass gereift</td>
-                    <td className="align-right">14,50 €</td>
+                    <td className="align-right">14,50€</td>
                 </tr>
                 <tr>
                     <td>Apfelbrand</td>
                     <td>im Eichenholzfass gereift</td>
-                    <td className="align-right">13,50 €</td>
+                    <td className="align-right">13,50€</td>
                 </tr>
                 <tr>
                     <td>Mirabelle</td>
                     <td></td>
-                    <td className="align-right">14,50 €</td>
+                    <td className="align-right">14,50€</td>
                 </tr>
                 <tr>
                     <td>Weinbergspfirisch</td>
                     <td></td>
-                    <td className="align-right">14,50 €</td>
+                    <td className="align-right">14,50€</td>
                 </tr>
                 <tr>
                     <td>Alter Zwetschgenbrand</td>
                     <td>im Eichenholzfass gereift</td>
-                    <td className="align-right">14,50 €</td>
+                    <td className="align-right">14,50€</td>
                 </tr>
                 <tr>
                     <td>Riesling- Weinbrand</td>
                     <td>1991er Trarbacher Taubenhaus, im Eichenholzfass gereift</td>
-                    <td className="align-right">15,00 €</td>
+                    <td className="align-right">15,00€</td>
                 </tr>
             </tbody>
         </table>
