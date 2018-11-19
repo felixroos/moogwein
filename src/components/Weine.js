@@ -88,6 +88,5 @@ export const Weine = (props) => (
         <div className="well align-center">
             Bestellungen per Email: <a href="mailto:moogis@arcor.de">moogis@arcor.de</a> oder per Telefon: 06541-701423
         </div>
-        {/* <p>Suchen Sie einen bestimmten Jahrgang? Fragen Sie nach. Leergut nehmen wir gerne wieder zurück.</p> */}
-    </div >
+    </div>
 );
