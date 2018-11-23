@@ -9,9 +9,6 @@ import lese2018 from './img/photos/lesehelfer2018.jpg';
 import netz from './img/photos/netz.jpg';
 import trauben from './img/photos/riesling.jpg';
 import grazien from './img/photos/grazien.jpg';
-import keller from './img/photos/keller.png';
-import faesser from './img/photos/faesser.jpg';
-import fass from './img/photos/fass.jpg';
 import haus from './img/photos/P1290118.jpg';
 import berg from './img/photos/P1290128.jpg';
 import pfad from './img/photos/TrabenerGaispfad.jpg';
@@ -57,17 +54,6 @@ class App extends Component {
           src: trauben,
           caption: 'Rieslingtrauben in der Herbstsonne'
         },
-      ],
-      weine: [
-        {
-          src: keller
-        },
-        {
-          src: faesser
-        },
-        {
-          src: fass
-        }
       ],
       lagen: [
         {
