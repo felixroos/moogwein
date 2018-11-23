@@ -64,7 +64,7 @@ self.__precacheManifest = [
     "url": "/static/media/moogwein.528d892b.jpg"
   },
   {
-    "revision": "8bd9e676354f10d01d6028b2d98f72f9",
+    "revision": "6387e8febf6b0a7b5324adfdbccddd4d",
     "url": "/index.html"
   }
 ];
