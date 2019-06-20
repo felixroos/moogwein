@@ -4,7 +4,7 @@ self.__precacheManifest = [
     "url": "/static/media/grazien.e812deb7.jpg"
   },
   {
-    "revision": "9254d89ea861aac2db8f",
+    "revision": "c13abee2a452d56bf71f",
     "url": "/static/css/main.78563e85.chunk.css"
   },
   {
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/riesling.5c48d10d.jpg"
   },
   {
-    "revision": "9254d89ea861aac2db8f",
-    "url": "/static/js/main.9254d89e.chunk.js"
+    "revision": "c13abee2a452d56bf71f",
+    "url": "/static/js/main.c13abee2.chunk.js"
   },
   {
     "revision": "4afa8a615addf7a1d4a75577136ab848",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/moogwein.528d892b.jpg"
   },
   {
-    "revision": "13627b021efa0016daa9ae4b61b6bfa3",
+    "revision": "e8ecd71e58980b87c44cac96d756d44e",
     "url": "/index.html"
   }
 ];
