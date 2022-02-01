@@ -1,15 +1,15 @@
 self.__precacheManifest = [
   {
-    "revision": "e812deb7ea82d510682737728d598b5f",
-    "url": "/static/media/grazien.e812deb7.jpg"
+    "revision": "8e0a7e07917068f91f83",
+    "url": "/static/css/main.6ed78463.chunk.css"
   },
   {
-    "revision": "45551b9e9234845b5f07",
-    "url": "/static/css/main.78563e85.chunk.css"
+    "revision": "8e0a7e07917068f91f83",
+    "url": "/static/js/main.8e0a7e07.chunk.js"
   },
   {
-    "revision": "0e47835a40c1d4c44beb",
-    "url": "/static/js/1.0e47835a.chunk.js"
+    "revision": "709a0478519f974c3ba0",
+    "url": "/static/js/1.709a0478.chunk.js"
   },
   {
     "revision": "229c360febb4351a89df",
@@ -28,8 +28,8 @@ self.__precacheManifest = [
     "url": "/static/media/riesling.5c48d10d.jpg"
   },
   {
-    "revision": "45551b9e9234845b5f07",
-    "url": "/static/js/main.45551b9e.chunk.js"
+    "revision": "e812deb7ea82d510682737728d598b5f",
+    "url": "/static/media/grazien.e812deb7.jpg"
   },
   {
     "revision": "4afa8a615addf7a1d4a75577136ab848",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/moogwein.528d892b.jpg"
   },
   {
-    "revision": "00fc5bf08a1fdb1c27a3f72475bb62aa",
+    "revision": "9351269eba0acfb1bfddc39e93dd04e1",
     "url": "/index.html"
   }
 ];
