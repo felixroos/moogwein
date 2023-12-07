@@ -30,7 +30,7 @@ export const Weine = (props) => (
           <td>Riesling - Spätlese</td>
           <td className="align-right">
             9,00€ <br />
-            <small>16,67€/l</small>
+            <small>12,00€/l</small>
           </td>
         </tr>
         <tr>
@@ -76,7 +76,7 @@ export const Weine = (props) => (
           <td>2 Jahre im Eichenholzfass gereift</td>
           <td className="align-right">
             10,00€ <br />
-            <small>19€/l</small>
+            <small>20€/l</small>
           </td>
         </tr>
         <tr>
