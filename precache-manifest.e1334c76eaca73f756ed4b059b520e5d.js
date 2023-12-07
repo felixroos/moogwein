@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "e09ffbc2c99b136486c3",
+    "revision": "ae98a662f95717032f0e",
     "url": "/static/css/main.6ed78463.chunk.css"
   },
   {
-    "revision": "e09ffbc2c99b136486c3",
-    "url": "/static/js/main.e09ffbc2.chunk.js"
+    "revision": "ae98a662f95717032f0e",
+    "url": "/static/js/main.ae98a662.chunk.js"
   },
   {
     "revision": "709a0478519f974c3ba0",
@@ -52,7 +52,7 @@ self.__precacheManifest = [
     "url": "/static/media/moogwein.528d892b.jpg"
   },
   {
-    "revision": "d19fe7d8a32da675972a81b766094692",
+    "revision": "87776ae4186b881b9b4e5cd0dc7104f6",
     "url": "/index.html"
   }
 ];
