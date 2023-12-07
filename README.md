@@ -48,5 +48,6 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ```sh
 create-react-app moogwein --use-npm
 npm run eject
-````
+```
 
+- `fnm use 12`
